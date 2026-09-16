@@ -6,5 +6,5 @@ const root = createRoot(document.getElementById('root'))
 const reactElement = createElement('h1', null, "Hello React")
 console.log(reactElement)
 root.render(
-  reactElement 
+ < reactElement />
 )
